@@ -7,13 +7,13 @@ export default function Projects() {
   ]
 
   return (
-    <section className="py-12">
-      <h2 className="text-5xl font-black mb-8">Projects</h2>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section className="py-10 px-10">
+      <h2 className="page-header" >Projects</h2>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {projects.map((p) => (
-          <div key={p.name} className="bg-black/5 border border-black/10 rounded-xl p-6 hover:bg-black/[0.07] transition">
-            <h3 className="text-2xl font-semibold">{p.name}</h3>
-            <p className="text-black text-lg md:text-xl mt-3">{p.description}</p>
+          <div key={p.name} className="bg-white/40 border border-black/10 rounded-xl p-6 hover:bg-black/[0.07] transition">
+            <h3 className="page-h3">{p.name}</h3>
+            <p className="page-txt-black">{p.description}</p>
           </div>
         ))}
       </div>
