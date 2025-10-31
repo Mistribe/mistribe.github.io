@@ -15,11 +15,11 @@ export const CUSTOM_PROJECTS: CustomProject[] = [
   // Example projects - replace with your actual projects
   {
     id: 101,
-    name: 'Brand Identity Design',
-    description: 'Complete visual identity system for a sustainable fashion startup.',
-    category: 'Design',
-    detailedDescription: 'Developed a comprehensive brand identity including logo design, color palette, typography system, and brand guidelines for an eco-friendly fashion startup. The design emphasizes sustainability and modern aesthetics while maintaining accessibility across all touchpoints.',
-    skills: ['Adobe Illustrator', 'Brand Strategy', 'Typography', 'Color Theory'],
+    name: 'IR Climate Controller',
+    description: '',
+    category: 'Automation',
+    detailedDescription: '',
+    skills: [],
     link: 'https://example.com/portfolio',
     linkText: 'View Portfolio'
   },

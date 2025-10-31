@@ -80,7 +80,7 @@ export default function Projects() {
         {allProjects.map((project) => (
           <div 
             key={project.name || project.id} 
-            className="bg-white/60 border border-black/10 rounded-xl p-6 hover:bg-black/[0.07] transition cursor-pointer"
+            className="bg-white/60 border border-black/10 rounded-xl p-6 hover:bg-white/80 hover:shadow-lg transition-all duration-200 cursor-pointer"
             onClick={() => handleProjectClick(project.id)}
           >
             <div className="flex justify-between items-start mb-3">
@@ -117,7 +117,7 @@ export default function Projects() {
                   <div>
                     <h4 className="page-h3 text-lg">{project.name}</h4>
                     {'category' in project && (
-                      <span className="text-sm text-gray-600">{project.category}</span>
+                      <span className="category-font text-sm text-gray-600">{project.category}</span>
                     )}
                   </div>
                   <div className="flex items-center gap-3">
